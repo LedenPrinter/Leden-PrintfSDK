@@ -1,0 +1,19 @@
+{
+  "name": "雷丹打印UniApp 插件",
+  "id": "Leiden-PrintfSDK",
+  "version": "1.0.0",
+  "description": "雷丹打印UniApp 插件",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "integrateType": "aar",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "Leiden-PrintfSDK",
+          "class": "com.leiden.uni.LeidenUniModule"
+        }
+      ]
+    }
+  }
+}
